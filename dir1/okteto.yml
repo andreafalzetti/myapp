@@ -1,3 +1,5 @@
 deploy:
   - echo "I am the subdir"
+  - echo "MY_VAR1=1" >> $OKTETO_ENV
+
 
