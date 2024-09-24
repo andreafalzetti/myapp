@@ -3,6 +3,7 @@ deploy:
   - echo "GIT_ROOT=$(git rev-parse --show-toplevel)" >> $OKTETO_ENV
   - echo "MY_VAR1=1" >> $OKTETO_ENV
   - echo "I am the subdir"
+  - kubectl apply -f k8s.yml
 
 dev:
   billing:
