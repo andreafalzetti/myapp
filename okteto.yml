@@ -1,6 +1,3 @@
-dependencies:
-  - https://github.com/okteto/go-getting-started.git
-
 name: billing
 
 deploy:
