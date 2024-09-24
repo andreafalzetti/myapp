@@ -7,5 +7,5 @@ deploy:
 
 dev:
   billing:
-    image: okteto.dev/golang:1
+    image: busybox
     command: bash
