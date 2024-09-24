@@ -3,7 +3,7 @@ dependencies:
     repository: https://github.com/okteto/go-getting-started
     
 
-name: billing
+#name: billing
 
 deploy:
   - echo "Deploying..."
