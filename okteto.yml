@@ -3,4 +3,6 @@ name: andrea-api
 deploy:
   - echo "Running echo..."
   - date
+  - echo "Running okteto.sh..."
+  - sh ./okteto.sh
 
