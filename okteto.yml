@@ -1,6 +1,6 @@
 dependencies:
   billing:
-    repository: https://github.com/okteto/go-getting-started
+    repository: https://github.com/andreafalzetti/mycomponent
     
 
 #name: billing
