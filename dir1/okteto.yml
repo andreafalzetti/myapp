@@ -1,5 +1,4 @@
 deploy:
   - echo "I am the subdir"
   - echo "MY_VAR1=1" >> $OKTETO_ENV
-
-
+  - - echo "GIT_ROOT=$(git rev-parse --show-toplevel)" >> $OKTETO_ENV
