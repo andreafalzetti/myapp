@@ -1,4 +1,4 @@
-name: dns
+name: myapp
 
 deploy:
   - echo "second deployment..."
