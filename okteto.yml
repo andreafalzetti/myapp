@@ -1,4 +1,4 @@
-name: andrea-api
+name: billing
 
 deploy:
   - echo "Running echo..."
