@@ -1,4 +1,4 @@
-name: customdir1name
+name: billing
 deploy:
   - echo "GIT_ROOT=$(git rev-parse --show-toplevel)" >> $OKTETO_ENV
   - echo "MY_VAR1=1" >> $OKTETO_ENV

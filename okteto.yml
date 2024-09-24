@@ -5,11 +5,11 @@
 
 #name: billing
 
-deploy:
-  - echo "Deploying..."
-  - kubectl apply -f k8s.yml
-  - echo "Cloning tools..."
-  - sh ./okteto.sh
-  - GIT_ROOT=/banana
-  - echo "MY_VAR=2" >> $OKTETO_ENV
+#deploy:
+#  - echo "Deploying..."
+#  - kubectl apply -f k8s.yml
+#  - echo "Cloning tools..."
+#  - sh ./okteto.sh
+#  - GIT_ROOT=/banana
+#  - echo "MY_VAR=2" >> $OKTETO_ENV
 
