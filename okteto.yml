@@ -4,9 +4,9 @@ dependencies:
 name: billing
 
 deploy:
-  - echo "Running echo..."
-  - date
-  - echo "Cloing tools..."
+  - echo "Deploying..."
+  - kubectl apply -f k8s.yml
+  - echo "Cloning tools..."
   - git clone https://github.com/tfutils/tfenv.git ~/tfenv
   - echo "Running okteto.sh..."
   - sh ./okteto.sh
