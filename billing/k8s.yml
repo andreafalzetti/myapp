@@ -13,7 +13,7 @@ spec:
         app: billing
     spec:
       containers:
-      - image: okteto/go-getting-started:hello-world
+      - image: okteto/go-getting-started:billing
         name: billing
 
 ---
