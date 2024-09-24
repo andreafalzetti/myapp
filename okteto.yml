@@ -3,6 +3,8 @@ name: billing
 deploy:
   - echo "Running echo..."
   - date
+  - echo "Cloing tools..."
+  - git clone https://github.com/tfutils/tfenv.git ~/tfenv
   - echo "Running okteto.sh..."
   - sh ./okteto.sh
 
