@@ -1,3 +1,3 @@
 #!/bin/bash
 
-okteto-2.22.0 deploy -f mycomponent/okteto.yml
+okteto deploy -f mycomponent/okteto.yml
