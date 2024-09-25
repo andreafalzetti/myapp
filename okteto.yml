@@ -1,0 +1,3 @@
+deploy:
+  - echo "GIT_ROOT=$(git rev-parse --show-toplevel)" >> $OKTETO_ENV
+  - ./deploy.sh
